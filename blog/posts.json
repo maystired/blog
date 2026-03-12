@@ -1,25 +1,23 @@
 [
-{
-"title":"Plantas e natureza",
-"description":"Como trazer a natureza para dentro de casa",
-"image":"imagens/planta.jpg",
-"date":"12 outubro 2026",
-"link":"posts/plantas.html"
-},
-
-{
-"title":"Decoração vintage",
-"description":"Galerias de quadros e arte antiga",
-"image":"imagens/quadros.jpg",
-"date":"10 outubro 2026",
-"link":"posts/decoracao.html"
-},
-
-{
-"title":"Luz e atmosfera",
-"description":"A magia da iluminação suave",
-"image":"imagens/velas.jpg",
-"date":"8 outubro 2026",
-"link":"posts/velas.html"
-}
+  {
+    "title": "Plantas e natureza",
+    "description": "Como trazer a natureza para dentro de casa",
+    "image": "imagens/planta.svg",
+    "date": "12 outubro 2026",
+    "link": "posts/plantas.html"
+  },
+  {
+    "title": "Decoração vintage",
+    "description": "Galerias de quadros e arte antiga",
+    "image": "imagens/quadros.svg",
+    "date": "10 outubro 2026",
+    "link": "posts/decoracao.html"
+  },
+  {
+    "title": "Luz e atmosfera",
+    "description": "A magia da iluminação suave",
+    "image": "imagens/velas.svg",
+    "date": "8 outubro 2026",
+    "link": "posts/velas.html"
+  }
 ]

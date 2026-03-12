@@ -1,95 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-
-<meta charset="UTF-8">
-
-<title>Dark Cottage</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Libre+Baskerville&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Cottage</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <header class="site-header">
+    <h1>Dark Cottage</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
 
-<header class="site-header">
+  <main>
+    <section class="hero">
+      <img src="imagens/floresta.svg" alt="Paisagem de floresta em estilo cottagecore sombrio">
+      <div class="hero-text">
+        <h2>O charme do cottagecore sombrio</h2>
+        <p>Natureza, arte antiga e luz suave.</p>
+      </div>
+    </section>
 
-<h1>Dark Cottage</h1>
+    <section class="info-strip" aria-label="Informações do blog">
+      <div class="widget">
+        <h3>Sobre</h3>
+        <p>Um blog sobre estética dark cottagecore, natureza e ambientes acolhedores.</p>
+      </div>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="sobre.html">Sobre</a>
-</nav>
+      <div class="widget">
+        <h3>Citação</h3>
+        <blockquote>"The woods are lovely, dark and deep."</blockquote>
+      </div>
+    </section>
 
-</header>
+    <section class="featured-post" id="featured-container" aria-label="Post principal"></section>
 
+    <section class="posts" id="posts-container" aria-label="Outros posts"></section>
+  </main>
 
-<main class="container">
+  <footer>
+    <p>© 2026 — Dark Cottage</p>
+  </footer>
 
-<section class="hero">
-
-<img src="imagens/floresta.jpg">
-
-<div class="hero-text">
-
-<h2>O charme do cottagecore sombrio</h2>
-
-<p>Natureza, arte antiga e luz suave.</p>
-
-</div>
-
-</section>
-
-
-<div class="content-layout">
-
-<section class="posts" id="posts-container">
-
-</section>
-
-
-<aside class="sidebar">
-
-<div class="widget">
-
-<h3>Sobre</h3>
-
-<p>
-Um blog sobre estética dark cottagecore,
-natureza e ambientes acolhedores.
-</p>
-
-</div>
-
-
-<div class="widget">
-
-<h3>Citação</h3>
-
-<blockquote>
-"The woods are lovely, dark and deep."
-</blockquote>
-
-</div>
-
-</aside>
-
-</div>
-
-</main>
-
-
-<footer>
-
-<p>© 2026 — Dark Cottage</p>
-
-</footer>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
